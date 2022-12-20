@@ -108,7 +108,7 @@ function renderLicenseBadge(license) {
     markdown += renderLicenseSection(data.license) + '\n';
   
     markdown += '## ' + content[6] + '\n';
-    markdown += 'You can find me here on [GitHub](https://github.com/' + data.github + ')\n';
+    markdown += 'You can find me here on [GitHub](https://github.com/Bermejo246' + data.github + ')\n';
     markdown += '\n';
     markdown += 'You can reach me via email at ' + data.email + ' with additional questions.\n';
   
