@@ -14,7 +14,7 @@ const questions = [
         name: 'title',
         message: 'What is the title of the repository that you have created?',
         validate: nameInput => {
-            return (nameInput ? true : console.log('Please provide your repository title.'));
+            return (nameInput ? true : console.log('Provide your repository title.'));
         }
     },
 
@@ -23,7 +23,7 @@ const questions = [
         name: 'description',
         message: 'Provide a thorough description of your repository.',
         validate: nameInput => {
-            return (nameInput ? true : console.log('Please provide a description for your application.'));
+            return (nameInput ? true : console.log('Provide a description for your application.'));
         }
     },
 
@@ -33,7 +33,7 @@ const questions = [
         name: 'installation',
         message: 'List installation instructions.',
         validate: nameInput => {
-                return (nameInput ? true : console.log('Please provide installation instructions.'));
+                return (nameInput ? true : console.log('Provide installation instructions.'));
         }
     },
 
@@ -44,7 +44,7 @@ const questions = [
         name: 'usage',
         message: 'Explain the usage of the content in your repository.',
         validate: nameInput => {
-                return (nameInput ? true : console.log('Please provide usage information.'));
+                return (nameInput ? true : console.log('Provide usage information.'));
         }
     },
 
@@ -54,7 +54,7 @@ const questions = [
         name: 'contribution',
         message: 'List contribution instructions for users.',
         validate: nameInput => {
-                return (nameInput ? true : console.log('Please provide information regarding how to contribute to the repository.'));
+                return (nameInput ? true : console.log('Provide information regarding how to contribute to the repository.'));
         }
     },
 
@@ -64,7 +64,7 @@ const questions = [
         name: 'test',
         message: 'Provide an explanation to how users can test your application.',
         validate: nameInput => {
-                return (nameInput ? true : console.log('Please provide testing instructions.'));
+                return (nameInput ? true : console.log('Provide testing instructions.'));
         }
     },
 
@@ -74,7 +74,7 @@ const questions = [
         message: 'Select the license used',
         choices: licenses,
         validate: nameInput => {
-            return (nameInput ? true : console.log('Please select the license used.'));
+            return (nameInput ? true : console.log('Insert license used.'));
         }
     },
 
@@ -83,7 +83,7 @@ const questions = [
         name: 'github',
         message: 'What is your GitHub Username?',
         validate: nameInput => {
-            return (nameInput ? true : console.log('Please provide your GitHub Username.'));
+            return (nameInput ? true : console.log('Insert GitHub Username.'));
         }
     },
 
@@ -92,7 +92,7 @@ const questions = [
         name: 'email',
         message: 'What is your email address?',
         validate: nameInput => {
-            return (nameInput ? true : console.log('Please enter your email address.'));
+            return (nameInput ? true : console.log('Enter your email address.'));
         }
     }
 
