@@ -1,19 +1,15 @@
+
 {
-  "name": "inquirer",
-  "version": "8.2.4",
-  "description": "READEME Generator",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "Mark Bermejo",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "ReadMe-Generator"
-  },
-  "dependencies": {
-    "inquirer": "^8.2.5"
+    "name": "static-site",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "inquirer": "^6.3.1"
+    }
   }
-}
